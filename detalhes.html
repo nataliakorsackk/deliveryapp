@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalhes do Restaurante</title>
+  <style>
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4; /* Fundo neutro claro */
+}
+
+h1 {
+  text-align: center;
+  color: #2d3748; /* Azul escuro */
+}
+
+#details {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px; /* Bordas mais arredondadas */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  border: 2px solid #4a5568; /* Borda azul escuro */
+  transition: all 0.3s ease; /* Animação suave */
+}
+
+#details:hover {
+  border: 2px solid #2d3748; /* Borda azul escuro mais intenso no hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px; /* Bordas mais arredondadas */
+  border: 2px solid #4a5568; /* Borda azul escuro */
+  transition: all 0.3s ease; /* Animação suave */
+}
+
+img:hover {
+  border: 2px solid #2d3748; /* Borda azul escuro mais intenso no hover */
+}
+
+.btn-back {
+  background-color: #2d3748; /* Cor de fundo azul escuro */
+  color: white; /* Cor do texto em branco */
+  padding: 12px 24px; /* Espaçamento interno */
+  font-size: 16px; /* Tamanho do texto */
+  font-weight: bold; /* Peso da fonte */
+  border: none; /* Sem borda */
+  border-radius: 8px; /* Bordas arredondadas */
+  cursor: pointer; /* Cursor de mão ao passar por cima */
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Transições suaves */
+  text-align: center; /* Centraliza o texto */
+  display: inline-block; /* Faz com que o botão seja inline-block */
+  margin: 20px 0; /* Espaçamento superior e inferior */
+  text-decoration: none;
+}
+
+/* Efeito no hover do botão */
+.btn-back:hover {
+  background-color: #4a5568; /* Cor de fundo mais clara (cinza escuro) no hover */
+  transform: translateY(-3px); /* Efeito de elevação */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao passar o mouse */
+}
+
+/* Efeito no foco do botão (quando clicado) */
+.btn-back:focus {
+  outline: none; /* Remove a borda de foco */
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1); /* Sombra leve ao focar */
+}
+  </style>
+</head>
+<body>
+  <a href="escolha.html" class="btn-back">Voltar à Tela Inicial</a>
+  <h1>Detalhes do Restaurante</h1>
+  <div id="details"></div>
+  <script src="js/detalhes.js"></script>
+</body>
+</html>

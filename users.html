@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Usuários</title>
+  <style>
+/* Corpo da página com fundo claro */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f7fafc; /* Fundo mais suave e claro */
+}
+
+/* Título centralizado */
+h1 {
+  text-align: center;
+  font-size: 2rem; /* Tamanho maior e mais moderno */
+  color: #2d3748; /* Azul escuro para sofisticação */
+}
+
+/* Estilo da lista sem marcador */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Estilo do item da lista com bordas arredondadas e sombra suave */
+li {
+  background-color: #ffffff; /* Fundo branco */
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 8px; /* Bordas mais arredondadas */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra mais suave e elegante */
+  cursor: pointer;
+  border: 2px solid #e2e8f0; /* Cor de borda neutra */
+  transition: all 0.3s ease; /* Transição suave */
+}
+
+/* Efeito de hover para alteração de cor e borda */
+li:hover {
+  background-color: #f1f1f1; /* Cor de fundo levemente mais escura */
+  border-color: #4a5568; /* Borda de cor cinza escuro */
+  transform: translateY(-3px); /* Efeito de elevação */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Sombra mais intensa no hover */
+}
+
+  </style>
+</head>
+<body>
+  <h1>Lista de Usuários</h1>
+  <ul id="user-list"></ul>
+  <script src="js/users.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurants List</title>
+  <style>
+/* Corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f7fafc; /* Cor de fundo mais suave e moderna */
+  color: #333; /* Cor de texto escura para melhor legibilidade */
+}
+
+/* Título centralizado */
+h1 {
+  text-align: center;
+  font-size: 2rem; /* Tamanho do título maior e mais impactante */
+  color: #2d3748; /* Azul escuro para sofisticação */
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+/* Estilo da lista sem marcadores */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Estilo dos itens da lista */
+li {
+  background-color: #fff; /* Fundo branco para os itens */
+  margin: 10px 0; /* Espaçamento entre os itens */
+  padding: 15px;
+  border-radius: 8px; /* Bordas mais arredondadas para um visual mais moderno */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra mais suave e elegante */
+  transition: all 0.3s ease; /* Transição suave */
+}
+
+/* Efeito de hover nos itens da lista */
+li:hover {
+  background-color: #f1f1f1; /* Cor de fundo levemente mais escura ao passar o mouse */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15); /* Sombra mais intensa no hover */
+  transform: translateY(-3px); /* Efeito de elevação ao passar o mouse */
+}
+
+/* Estilo do botão de voltar à tela inicial */
+.btn-back {
+  background-color: #2d3748; /* Cor de fundo azul escuro */
+  color: white; /* Cor do texto em branco */
+  padding: 12px 24px; /* Espaçamento interno */
+  font-size: 16px; /* Tamanho do texto */
+  font-weight: bold; /* Peso da fonte */
+  border: none; /* Sem borda */
+  border-radius: 8px; /* Bordas arredondadas */
+  cursor: pointer; /* Cursor de mão ao passar por cima */
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Transições suaves */
+  text-align: center; /* Centraliza o texto */
+  display: inline-block; /* Faz com que o botão seja inline-block */
+  margin: 20px 0; /* Espaçamento superior e inferior */
+  text-decoration: none;
+}
+
+/* Efeito no hover do botão */
+.btn-back:hover {
+  background-color: #4a5568; /* Cor de fundo mais clara (cinza escuro) no hover */
+  transform: translateY(-3px); /* Efeito de elevação */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao passar o mouse */
+}
+
+/* Efeito no foco do botão (quando clicado) */
+.btn-back:focus {
+  outline: none; /* Remove a borda de foco */
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1); /* Sombra leve ao focar */
+}
+
+  </style>
+</head>
+<body>
+  <a href="escolha.html" class="btn-back">Voltar à Tela Inicial</a>
+  <h1>Restaurantes</h1>
+  <ul id="restaurant-list"></ul>
+  <script src="js/restaurantes.js"></script>
+</body>
+</html>

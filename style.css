@@ -1,0 +1,261 @@
+/* Resetando margens e preenchimentos gerais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Fundo neutro claro */
+}
+
+/* ---- Página Inicial ---- */
+
+/* Fundo com gradiente suave */
+.body-inicio {
+    background: linear-gradient(135deg, #f7f9fc, #2d3748); 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Logo centralizada com sombra leve e suave */
+  .center-image {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    max-width: 250px; /* Logo mais compacta */
+    filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.1));
+  }
+  
+  /* Estilo do botão (mais minimalista e sofisticado) */
+  .move-down {
+    margin-top: 30px;
+  }
+  
+  .btn-custom {
+    background-color: #2d3748; /* Azul escuro */
+    color: white;
+    border: none;
+    padding: 14px 28px; /* Tamanho maior para mais destaque */
+    font-size: 18px; /* Aumentando o texto para um visual mais elegante */
+    border-radius: 50px; /* Bordas arredondadas para um visual mais suave */
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transição suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Efeito no hover do botão */
+  .btn-custom:hover {
+    background-color: #4a5568; /* Cinza escuro */
+    transform: translateY(-5px); /* Efeito de elevação mais sutil */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
+  }
+  
+  /* Estilo do link "voltar" */
+  .back-link {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 8px 15px;
+    border-radius: 25px; /* Bordas mais arredondadas */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .back-link:hover {
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.7);
+    transform: scale(1.05); /* Efeito de zoom suave */
+  }
+  
+  /* ---- Página de Login e Cadastro ---- */
+  
+  /* Fundo suave com sombras leves */
+  .body-login-cadastro {
+    background-color: #e2e8f0; /* Cinza claro */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 380px; /* Reduzindo o tamanho do container para um layout mais enxuto */
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    border-radius: 12px; /* Bordas mais arredondadas */
+    background-color: #ffffff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Sombra mais suave e sofisticada */
+    transition: all 0.3s ease;
+  }
+  
+  .container:hover {
+    transform: scale(1.02); /* Efeito de zoom suave no hover */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Sombra mais intensa no hover */
+  }
+  
+  /* Estilo do campo de entrada (simplificado) */
+  .form-control {
+    border: 2px solid #2d3748; /* Azul escuro */
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    width: 100%;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Foco no campo de entrada */
+  .form-control:focus {
+    border-color: #4a5568; /* Muda a borda para um tom mais escuro */
+    outline: none;
+  }
+  
+  /* Estilo do label */
+  label {
+    font-weight: normal;
+    color: #2d3748; /* Azul escuro */
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  /* Botão de ação (com mais elegância) */
+  .btn-danger {
+    background-color: #2d3748; /* Azul escuro */
+    color: white;
+    padding: 12px 28px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-danger:hover {
+    background-color: #4a5568; /* Cinza escuro */
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* ---- Páginas de Menu e Pizzarias ---- */
+  
+  /* Fundo azul escuro com padding */
+  .body-contemporaneo, .body-pizzarias {
+    background-color: #2d3748; /* Azul escuro */
+    color: white;
+    min-height: 100vh;
+    padding: 30px;
+  }
+  
+  /* Barra de pesquisa com borda cinza */
+  .search-bar {
+    border: 2px solid #e2e8f0; /* Cinza claro */
+    border-radius: 30px;
+    padding: 12px 24px;
+    color: black;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Ícone de menu */
+  .menu-icon {
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  /* Imagens dos itens de menu (circular) */
+  .menu-item-image, .pizzaria-logo {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #e2e8f0; /* Cinza claro */
+    margin-bottom: 15px;
+  }
+  
+  /* Títulos e preços com estilo moderno */
+  .menu-item-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .menu-item-price {
+    font-size: 1rem;
+    color: #e2e8f0; /* Cinza claro */
+  }
+  
+  /* Cards de itens com padding e espaçamento ajustado */
+  .row-cols-2 > .col {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Links de navegação */
+  .nav-link {
+    color: #4a5568; /* Cinza escuro */
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #2d3748; /* Azul escuro */
+  }
+  
+  /* ---- Cards ---- */
+  
+  /* Estilo do card com borda arredondada e sombra mais suave */
+  .card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.02); /* Efeito de zoom no hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
+  }
+  
+  /* Corpo do card com padding */
+  .card-body {
+    padding: 30px;
+  }
+  
+  /* Título do card */
+  .card-title {
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Botão de card com fundo claro e transições suaves */
+  .btn-light {
+    background-color: white;
+    color: #2d3748; /* Azul escuro */
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    border: 2px solid #2d3748;
+    transition: opacity 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .btn-light:hover {
+    opacity: 0.8;
+    background-color: #4a5568; /* Cinza escuro */
+  }
+  
